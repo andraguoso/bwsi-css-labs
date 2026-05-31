@@ -15,6 +15,7 @@ def check_numeric(prompt: str) -> float:
             number = float(input(prompt))
             return number
         except ValueError:
+            print("Please enter a valid number.")
             print("Invalid input. Please enter a valid number.")
         
 

@@ -21,6 +21,7 @@ def test_multiplication():
     assert simple_calculator("multiply", 5, 3) == 15    # Test for positive numbers
     assert simple_calculator("multiply", -2, 2) == -4   # Test for negative and positive number
     assert simple_calculator("multiply", 0, 100) == 0   # Test for multiplication by zero
+    assert simple_calculator("multiply", 0.2, -0.33) == -0.066
 
 def test_division():
     assert simple_calculator("divide", 6, 3) == 2       # Test for positive numbers
